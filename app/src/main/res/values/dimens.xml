@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_bold">40dp</dimen>
+    <dimen name="img_icono_inicio">250dp</dimen>
+    <dimen name="img_patrocinadores_inicio">400dp</dimen>
+    <dimen name="window_padding">60dp</dimen>
+    <dimen name="act1_margin_item">30dp</dimen>
+    <dimen name="act1_text_tit">20dp</dimen>
+    <dimen name="act1_video">500dp</dimen>
+    <dimen name="elevation_toolbar">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="act2_text_form">18dp</dimen>
+    <dimen name="act3_form_width">100dp</dimen>
+    <dimen name="act3_producto_width">350dp</dimen>
+    <dimen name="act4_reciclador_padding">8dp</dimen>
+</resources>

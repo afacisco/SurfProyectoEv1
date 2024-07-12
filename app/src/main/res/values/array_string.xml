@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_productos">
+        <item>Tabla Surf</item>
+        <item>Tabla Skate</item>
+        <item>Leash</item>
+        <item>Greep</item>
+        <item>Ruedas Skate</item>
+        <item>Protecciones Skate</item>
+        <item>Skate</item>
+        <item>Parafina</item>
+        <item>Neopreno largo</item>
+        <item>Neopreno corto</item>
+        <item>Quillas</item>
+        <item>Casco Skate</item>
+        <item>Casco Surf</item>
+        <item>Bodyboard</item>
+        <item>Aletas</item>
+    </string-array>
+    <string-array name="array_patrocinadores_nombre">
+        <item>LOST</item>
+        <item>NSP</item>
+        <item>PUKAS</item>
+        <item>INDIO</item>
+        <item>FIREWIRE</item>
+        <item>ALOHA</item>
+    </string-array>
+    <string-array name="array_patrocinadores_descripcion">
+        <item>Lost es la marca de tablas de surf del shaper Matt "Mayhem" Biolos, una marca que nació en 1987 en California y que se ha convertido en el mayor fabricante de tablas de surf de EEUU.\nLost es ahorra una de las marcas de tablas de surf mas prestigiosas del mundo, con una amplia gama de tablas, shortboard, fish o hibridas que convendrán a los surfistas intermedios hasta expertos.</item>
+        <item>NSP Surfboards builds sustainable, epoxy- and PU surfboards, recreational SUP boards, high-performance race boards and carbon foiling gear.</item>
+        <item>Pukas Surf es una empresa familiar guipuzcoana reconocida por la fabricación artesanal de tablas de surf de alto rendimiento. El conocimiento de shapers internacionales y el feedback de los surfistas convergen a diario en Olatu, la factoría de tablas de Pukas (San Sebastián, Guipúzcoa).</item>
+        <item>Rodeados de olas, surfistas de perfiles de toda clase y una costa privilegiada para la práctica del deporte, la cultura de empresa crece respirando surf. Continuamente estimulados por el contacto con las tablas y el mar, el orgullo principal de todo el equipo es compartido; el deporte del surf.</item>
+        <item>Firewire is dedicated to elevating the surfing experience through innovative design, new materials, and advanced construction methods.</item>
+        <item>Tienda de surf en Tenerife. Surfshop en Canarias con las mejores marcas de surfing, skateboard, boogie board surfing in Canary Islands.</item>
+    </string-array>
+    <string-array name="array_patrocinadores_enlaces">
+        <item>https://lostsurfboards.net/</item>
+        <item>https://www.nspsurfboards.com/</item>
+        <item>https://pukassurfshop.com/</item>
+        <item>https://pukassurf.com/</item>
+        <item>https://www.firewiresurfboards.com/</item>
+        <item>https://www.alohasurfshop.es/</item>
+    </string-array>
+</resources>

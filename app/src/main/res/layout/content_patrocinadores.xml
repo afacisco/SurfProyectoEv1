@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatrocinadoresActivity"
+    android:layout_marginTop="@dimen/act1_margin_item"
+    android:paddingTop="@dimen/window_padding"
+    android:paddingLeft="@dimen/window_padding"
+    android:paddingRight="@dimen/window_padding"
+    android:paddingBottom="@dimen/fab_margin">
+
+    <TextView
+        android:id="@+id/textViewPatrocinadores"
+        style="@style/PresentacionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/act4_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/imageViewPatrocinadores"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_icono_inicio"
+        app:srcCompat="@drawable/marcas"
+        android:layout_marginTop="@dimen/act1_text_tit"
+        android:layout_below="@+id/textViewPatrocinadores"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reciclador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/act1_text_tit"
+        android:background="@color/azul_bold"
+        android:padding="@dimen/act4_reciclador_padding"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/imageViewPatrocinadores"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CestaActivity"
+    android:layout_marginTop="@dimen/act1_margin_item"
+    android:paddingTop="@dimen/window_padding"
+    android:paddingLeft="@dimen/window_padding"
+    android:paddingRight="@dimen/window_padding"
+    android:paddingBottom="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/textViewContacto"
+            style="@style/PresentacionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act3_name"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/imageViewCesta"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_icono_inicio"
+            app:srcCompat="@drawable/cesta"
+            android:layout_marginTop="@dimen/act1_text_tit"
+            android:layout_below="@+id/textViewContacto"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/textViewTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewCesta"
+            android:text="@string/act3_totalcesta_texto"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/act1_text_tit"
+            android:textSize="@dimen/act2_text_form"/>
+
+    <ListView
+        android:id="@+id/listViewListaCompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTotal"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/act1_text_tit"
+        android:textSize="@dimen/act2_text_form"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextProducto"
+                android:layout_width="@dimen/act3_producto_width"
+                android:layout_height="wrap_content"
+                android:hint="@string/act3_producto_texto"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="@dimen/act2_text_form"
+                android:completionThreshold="1"
+                tools:ignore="SpeakableTextPresentCheck"/>
+            <EditText
+                android:id="@+id/editTextCantidad"
+                android:layout_width="@dimen/act3_form_width"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/autoCompleteTextProducto"
+                android:hint="@string/act3_cantidad_texto"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="@dimen/act2_text_form"
+                tools:ignore="SpeakableTextPresentCheck"/>
+            <EditText
+                android:id="@+id/editTextPrecio"
+                android:layout_width="@dimen/act3_form_width"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/editTextCantidad"
+                android:hint="@string/act3_precio_texto"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:textSize="@dimen/act2_text_form"
+                tools:ignore="SpeakableTextPresentCheck"/>
+        </RelativeLayout>
+</RelativeLayout>

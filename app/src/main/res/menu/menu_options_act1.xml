@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/opcionPatrocinadores"
+        android:title="@string/act1_menu_patrocinadores" />
+    <item
+        android:id="@+id/opcionCesta"
+        android:title="@string/act1_menu_cesta" />
+    <item
+        android:id="@+id/opcionAbout"
+        android:title="@string/act1_menu_about" />
+    <item
+        android:id="@+id/opcionSalir"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/act1_menu_salir"
+        app:showAsAction="always" />
+</menu>

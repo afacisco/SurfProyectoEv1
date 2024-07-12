@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/act1_margin_item"
+        android:paddingTop="@dimen/window_padding"
+        android:paddingBottom="@dimen/window_padding"
+        android:paddingLeft="@dimen/window_padding"
+        android:paddingRight="@dimen/window_padding">
+
+
+        <TextView
+            android:id="@+id/textViewInicio"
+            style="@style/PresentacionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act1_name"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/imageViewIcono"
+            android:layout_width="@dimen/img_icono_inicio"
+            android:layout_height="@dimen/img_icono_inicio"
+            app:srcCompat="@mipmap/ic_inicio_round"
+            android:layout_marginTop="@dimen/act1_margin_item"
+            android:layout_below="@+id/textViewInicio"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"/>
+
+        <VideoView
+            android:layout_width="@dimen/act1_video"
+            android:layout_height="@dimen/act1_video"
+            android:id="@+id/videoView"
+            android:layout_below="@+id/imageViewIcono"
+            android:layout_marginTop="@dimen/act1_margin_item"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/textViewAnimado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act1_anim_texto"
+            android:layout_below="@+id/videoView"
+            android:layout_marginTop="@dimen/act1_margin_item"
+            android:textSize="@dimen/act1_text_tit"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutPatrocinadores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/textViewAnimado"
+            android:layout_marginTop="@dimen/act1_margin_item"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true" >
+            <TextView
+                android:id="@+id/textViewTitulo"
+                style="@style/PresentacionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/act1_tit_texto"
+                android:textColor="@color/black"
+                android:textSize="@dimen/act1_text_tit" />
+
+            <ImageView
+                android:id="@+id/imageViewMarcas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/marcas"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
